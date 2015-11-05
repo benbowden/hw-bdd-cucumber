@@ -23,6 +23,7 @@ Background: movies have been added to database
 
 Scenario: sort movies alphabetically
   When I follow "Movie Title"
+  Then I should see "Aladdin" before "The Help" 
   # your steps here
 
 Scenario: sort movies in increasing order of release date
